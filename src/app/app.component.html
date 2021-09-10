@@ -1,0 +1,14 @@
+<div class="login-container">
+    <div class="buttons-container">
+        <h1>BSL</h1>
+        <div>
+            <a href="/countries"> Ir al componente country-list</a>
+            <button (click)="onClick(true)" class="buttonClass">Autenticarse</button>
+            <button (click)="onClick(false)" class="buttonClass">Cerrar sesión</button>
+        </div>
+    </div>
+    
+</div>
+<app-country-form></app-country-form>
+<app-blog-component></app-blog-component>
+<router-outlet></router-outlet>
